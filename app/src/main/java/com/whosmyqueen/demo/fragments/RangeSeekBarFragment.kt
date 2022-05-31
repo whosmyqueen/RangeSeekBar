@@ -1,10 +1,10 @@
-package com.jaygoo.demo.fragments
+package com.whosmyqueen.demo.fragments
 
 import android.view.View
-import com.jaygoo.demo.R
-import com.jaygoo.widget.OnRangeChangedListener
-import com.jaygoo.widget.RangeSeekBar
-import com.jaygoo.widget.SeekBar
+import com.whosmyqueen.demo.R
+import com.whosmyqueen.widget.OnRangeChangedListener
+import com.whosmyqueen.widget.RangeSeekBar
+import com.whosmyqueen.widget.SeekBar
 import kotlinx.android.synthetic.main.fragment_range.*
 
 /**

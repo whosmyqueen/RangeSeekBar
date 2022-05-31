@@ -1,7 +1,7 @@
-package com.jaygoo.demo.fragments
+package com.whosmyqueen.demo.fragments
 
 import android.view.View
-import com.jaygoo.demo.R
+import com.whosmyqueen.demo.R
 import kotlinx.android.synthetic.main.fragment_step.*
 import java.util.ArrayList
 

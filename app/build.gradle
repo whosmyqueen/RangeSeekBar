@@ -3,15 +3,14 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-
+    compileSdkVersion 31
     defaultConfig {
-        applicationId rootProject.ext.applicationId
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode rootProject.ext.versionCode
-        versionName rootProject.ext.versionName
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        applicationId "com.jaygoo.demo"
+        minSdkVersion 16
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 28
+        versionCode 300
+        versionName "3.0.0"
     }
     buildTypes {
         release {
@@ -34,8 +33,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation "com.android.support:appcompat-v7:$buildToolsVersion"
-    implementation "com.android.support:design:$buildToolsVersion"
+    implementation "androidx.appcompat:appcompat:1.4.1"
+    implementation "com.google.android.material:material:1.5.0"
 
     implementation project(':RangeSeekBar')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

@@ -1,10 +1,10 @@
-package com.jaygoo.widget;
+package com.whosmyqueen.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;

@@ -1,4 +1,4 @@
-package com.jaygoo.widget;
+package com.whosmyqueen.widget;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -6,9 +6,9 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 
-import static com.jaygoo.widget.VerticalRangeSeekBar.DIRECTION_LEFT;
-import static com.jaygoo.widget.VerticalRangeSeekBar.DIRECTION_RIGHT;
-import static com.jaygoo.widget.VerticalRangeSeekBar.TEXT_DIRECTION_VERTICAL;
+import static com.whosmyqueen.widget.VerticalRangeSeekBar.DIRECTION_LEFT;
+import static com.whosmyqueen.widget.VerticalRangeSeekBar.DIRECTION_RIGHT;
+import static com.whosmyqueen.widget.VerticalRangeSeekBar.TEXT_DIRECTION_VERTICAL;
 
 
 /**

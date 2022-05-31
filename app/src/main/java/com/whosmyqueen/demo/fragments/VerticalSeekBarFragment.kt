@@ -1,11 +1,8 @@
-package com.jaygoo.demo.fragments
+package com.whosmyqueen.demo.fragments
 
-import android.graphics.Color
 import android.view.View
-import com.jaygoo.demo.R
-import com.jaygoo.widget.*
-import kotlinx.android.synthetic.main.fragment_range.*
-import kotlinx.android.synthetic.main.fragment_step.*
+import com.whosmyqueen.demo.R
+import com.whosmyqueen.widget.*
 import kotlinx.android.synthetic.main.fragment_vertical.*
 import java.util.ArrayList
 

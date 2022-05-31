@@ -1,18 +1,18 @@
-package com.jaygoo.demo;
+package com.whosmyqueen.demo;
 
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.tabs.TabLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.jaygoo.demo.fragments.BaseFragment;
-import com.jaygoo.demo.fragments.RangeSeekBarFragment;
-import com.jaygoo.demo.fragments.SingleSeekBarFragment;
-import com.jaygoo.demo.fragments.VerticalSeekBarFragment;
-import com.jaygoo.demo.fragments.StepsSeekBarFragment;
+import com.whosmyqueen.demo.fragments.BaseFragment;
+import com.whosmyqueen.demo.fragments.RangeSeekBarFragment;
+import com.whosmyqueen.demo.fragments.SingleSeekBarFragment;
+import com.whosmyqueen.demo.fragments.VerticalSeekBarFragment;
+import com.whosmyqueen.demo.fragments.StepsSeekBarFragment;
 
 import java.util.ArrayList;
 import java.util.List;

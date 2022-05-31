@@ -1,4 +1,4 @@
-package com.jaygoo.widget;
+package com.whosmyqueen.widget;
 
 /**
  * ================================================

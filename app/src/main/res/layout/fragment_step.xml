@@ -7,7 +7,7 @@
     android:layout_marginTop="@dimen/activity_vertical_margin"
     android:orientation="vertical">
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         app:rsb_thumb_height="31dp"
         app:rsb_thumb_width="25dp" />
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         app:rsb_thumb_height="31dp"
         app:rsb_thumb_width="25dp" />
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         app:rsb_thumb_scale_ratio="1.25"
         app:rsb_thumb_width="18dp" />
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
         app:rsb_step_width="10dp"
         app:rsb_steps="5" />
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -97,15 +97,12 @@
         app:rsb_tick_mark_text_array="@array/wordsArray"
         app:rsb_tick_mark_text_margin="20dp" />
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:rsb_gravity="bottom"
+        app:rsb_gravity="center"
         app:rsb_indicator_background_color="@color/colorProgress"
-        app:rsb_indicator_height="30dp"
-        app:rsb_indicator_show_mode="showWhenTouch"
-        app:rsb_indicator_width="50dp"
         app:rsb_mode="single"
         app:rsb_progress_color="@color/colorProgress"
         app:rsb_step_auto_bonding="true"
@@ -113,29 +110,23 @@
         app:rsb_step_height="10dp"
         app:rsb_step_width="5dp"
         app:rsb_steps="4"
-        app:rsb_thumb_drawable="@drawable/thumb_yellow_stroke"
-        app:rsb_tick_mark_layout_gravity="bottom"
-        app:rsb_tick_mark_mode="other"
-        app:rsb_tick_mark_text_array="@array/wordsArray"
-        app:rsb_tick_mark_text_margin="20dp" />
+        app:rsb_thumb_drawable="@drawable/thumb_yellow_stroke" />
 
-    <com.jaygoo.widget.RangeSeekBar
+    <com.whosmyqueen.widget.RangeSeekBar
         android:id="@+id/sb_steps_7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:rsb_gravity="bottom"
-        app:rsb_mode="range"
-        app:rsb_progress_color="@color/colorAccent"
+        app:rsb_gravity="center"
+        app:rsb_indicator_background_color="#CDCDCD"
+        app:rsb_mode="single"
+        app:rsb_progress_color="#5183E9"
+        app:rsb_progress_height="13dp"
+        app:rsb_progress_radius="10dp"
         app:rsb_step_auto_bonding="true"
-        app:rsb_step_color="@color/colorAccent"
-        app:rsb_step_height="10dp"
+        app:rsb_step_color="@android:color/transparent"
+        app:rsb_step_height="15dp"
         app:rsb_step_width="5dp"
         app:rsb_steps="4"
-        app:rsb_thumb_drawable="@drawable/thumb_green_alpha"
-        app:rsb_tick_mark_gravity="center"
-        app:rsb_tick_mark_layout_gravity="bottom"
-        app:rsb_tick_mark_mode="number"
-        app:rsb_tick_mark_text_array="@array/markArray4"
-        app:rsb_tick_mark_text_margin="20dp" />
+        app:rsb_thumb_drawable="@drawable/thumb_green_alpha" />
 
 </LinearLayout>
